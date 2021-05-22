@@ -1,31 +1,30 @@
-
 Image Synthesis from Text using Generative Adversarial Networks (GANs)
-----------------------------------------------------------------------
-
-
-Development & Execution Environment
------------------------------------
-
-1. Platform - CPU
-
-2. Processor - Intel i3
-
-3. OS - Windows
-
-4. IDE - Anaconda Spyder 
-
-5. Programming Language - Python 3.7
-
-6. Framework - Tensorflow
 
 
 
-Folders & Files Description
----------------------------
+1. Development & Execution Environment
 
 
-Folders
--------
+a) Platform - CPU
+
+b) Processor - Intel i3
+
+c) OS - Windows
+
+d) IDE - Anaconda Spyder 
+
+e) Programming Language - Python 3.7
+
+f) Framework - Tensorflow
+
+
+
+2. Folders & Files Description
+
+
+
+a) Folders
+
 
 1. checkpoint - used to save the trained model
 
@@ -34,8 +33,8 @@ Folders
 3. train_samples - used to save the generated images from text captions
 
 
-Files
-------
+b) Files
+
 
 1. model.py - text encoder, generator and discriminator network model code
 
@@ -47,10 +46,13 @@ Files
 
 5. utils.py - utility functions used in GAN implementation
 
+6. model.ckpt-90.data-00000-of-00001 - trained model (90 epochs)
 
 
-Execution Instructions
------------------------
+
+3. Execution Instructions
 
 
-1. Run the train.py file to train the GAN on the Oxford-102 dataset of flowers and test the GAN to generate images from sample text captions.
+a) Create a folder named checkpoint
+
+b) Run the train.py file to train the GAN on the Oxford-102 dataset of flowers and test the GAN to generate images from sample text captions.
